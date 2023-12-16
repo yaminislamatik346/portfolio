@@ -1,0 +1,699 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+{margin:0;padding:0;}
+
+html{
+    font-size:62.5%;
+}
+
+body{
+    background-color: #030712;
+    position: relative !important;
+    font-size:1.7rem;
+        background-image: url("../img/service-bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+}
+/* Navigation Start ======================================================== */
+.bg-dark {
+    background-color: #1a1d20ad!important;
+    box-shadow: 0px 0px 36px #000;
+}
+.navbar.bg-dark.navbar-dark.navbar-expand-sm.sticky-top {
+    background: #111827 !important;
+    border-bottom: 2px solid #1F2937;
+}
+.navbar-nav li a{
+    color:#fff !important;
+    padding:0px 15px 0px 15px !important;
+    transition: 0.3s all ease;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-nav li a:hover{
+    color:#1637EE !important;
+    box-shadow: 0px 0px 60px #10206b;
+}
+/* Navigation Stop ======================================================== */
+
+/* Header Image Start ======================================================== */
+.header_full_wrapper .header-content{
+    color: #fff;
+    padding:26% 0%;
+}
+.header_full_wrapper .hithere {
+    color: #1637EE;
+    font-size: 1.9rem;
+    font-family: Arial;
+    margin: 0;
+}
+.header_full_wrapper .imyamin {
+    font-size: 4.5rem;
+    font-family: oswald;
+}
+.header_full_wrapper .wevDeveloper{
+    font-family: 'Roboto', sans-serif;
+    font-style:italic;
+    font-size: 2.4rem;
+}
+.header_full_wrapper .overThe {
+    margin-top: 1.2rem;
+    color: #737985;
+}
+/* Btn */
+.button{
+	text-decoration:none;
+}
+.button:hover{
+    box-shadow: 0px 0px 6rem #0e26b3;
+}
+.content{
+    padding:1rem 4rem;
+    position: relative;
+    z-index: 5;
+    overflow: hidden;
+    display: inline-block;
+    color: #fff;
+    border: .2rem solid #1037EE;
+    border-radius: 1.5rem;
+    margin-top: 1.2rem;
+}
+.content:hover{
+	background:none;
+	color:white;
+}
+
+.content:before{
+	content:"";
+	position:absolute;
+	width:50%;
+	height:100%;
+	background:#1037EE;
+	top:0;
+	left:-50%;
+	transition:all 0.3s ease;
+	z-index:-5;
+}
+.button:hover .content:before{
+	left:0;
+}
+
+.content:after{
+	content:"";
+	position:absolute;
+	width:50%;
+	height:100%;
+	background:#1037EE;
+	top:0;
+	right:-50%;
+	transition:all 0.3s ease;
+	z-index:-5;
+}
+.button:hover .content:after{
+	right:0;
+}	
+/* Btn END */
+.header_full_wrapper .header_image img{ 
+    width: 75rem;
+    height: auto;
+    padding:10% 0%;
+}
+/* Header Image Stop ======================================================== */
+
+/* About Start ======================================================== */
+.about_full_wrapper {
+    background: #17191cad;
+    padding:5%;
+}
+.about_full_wrapper span {
+    color: #009FFF;
+}
+.about_full_wrapper .about_image img{
+    width:80%;
+    margin: auto;
+    display: block;
+}
+.about_full_wrapper .about-content {
+    padding:5rem 0rem;
+}
+.about_full_wrapper .about-content h1{
+    font-family: 'Oswald', sans-serif;
+    color:#fff;
+    font-size: 4.5rem;
+}
+.about_full_wrapper .about-content h1 span{
+    color:#1637EE;
+}
+.about_full_wrapper .about-content p{
+    font-family: 'Roboto', sans-serif;
+    color:#CBD5E1;
+    font-size:2rem;
+    margin-top: 1.5rem;
+}
+/* About Stop ======================================================== */
+
+/* Service Start ======================================================== */
+
+.service_full_wrapper{
+    padding:8% 0%;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    border-bottom:.2rem solid #1F2937;
+}
+.service_full_wrapper .row {
+    margin-top: 2rem;
+  }
+.service_full_wrapper .service h2 {
+    color: white;
+    letter-spacing: 1rem;
+    color: #0F2DB9;
+    font-size: 5rem;
+}
+.service_full_wrapper .web-design{
+    color: #fff !important;
+    padding: 4.1rem 3.5rem;
+    background-color: #111827;
+    margin-left: 5.7rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    transition: 0.2s all ease;
+    font-size: 1.6rem;
+}
+.service_full_wrapper .web-design:hover{
+    box-shadow:0px 0px 7.9rem #070f42
+}
+.service_full_wrapper .fa-solid.fa-link {
+    text-align: center;
+    font-size: 3.5rem;
+    color: #0F2DD0;
+    border: .1rem solid;
+    padding: 2rem;
+    border-radius: 4.5rem;
+}
+.service_full_wrapper .web-design h2{
+    margin-top: 1.1rem;
+    font-size: 2.3rem;
+}
+.service_full_wrapper .web-design p{
+    margin-top: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+    color: #a8a0a0;
+    font-style: italic;
+}
+.service_full_wrapper .web-design .line{
+    width: 9.8rem;
+    height: .2rem;
+    background-color: #0F2DD0;
+    margin: auto;
+}
+/* Web Design End */
+.service_full_wrapper{
+    padding:8% 0%;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+.service_full_wrapper .web-development{
+    color: #fff !important;
+    padding:4.1rem 3.5rem;
+    background-color:#111827;
+    margin-left: 3.5rem;
+    cursor: pointer;
+    transition:0.2s all ease;
+    border-radius: 1.5rem;
+}
+.service_full_wrapper .web-development:hover{
+    box-shadow:0px 0px 7.9rem #070f42
+}
+.service_full_wrapper .fa-code{
+    text-align: center;
+    font-size: 3.5rem;
+    color: #0F2DD0;
+    border: .1rem solid;
+    padding: 2rem;
+    border-radius: 4.5rem;
+}
+.service_full_wrapper .web-development h2{
+    margin-top: 1.1rem;
+    font-size: 2.3rem;
+}
+.service_full_wrapper .web-development p{
+    margin-top: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+    color: #a8a0a0;
+    font-style: italic;
+}
+.service_full_wrapper .web-development .line{
+    width: 9.8rem;
+    height: .2rem;
+    background-color: #0F2DD0;
+    margin: auto;
+}
+/* Web Development End */
+.service_full_wrapper{
+    padding:8% 0%;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+.service_full_wrapper .wordpress{
+    color: #fff !important;
+    padding:4.1rem 3.5rem;
+    background-color:#111827;
+    margin-left: 3.5rem;
+    border-radius:1.5rem;
+    cursor: pointer;
+    transition:0.2s ease;
+}
+.service_full_wrapper .wordpress:hover{
+    box-shadow:0px 0px 7.9rem #070f42
+}
+.service_full_wrapper .fa-wordpress-simple{
+    text-align: center;
+    font-size: 3.5rem;
+    color: #0F2DD0;
+    border: .1rem solid;
+    padding: 2rem;
+    border-radius: 4.5rem;
+}
+.service_full_wrapper .wordpress h2{
+    margin-top: 1.1rem;
+    font-size: 2.3rem;
+}
+.service_full_wrapper .wordpress p{
+    margin-top: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+    color: #a8a0a0;
+    font-style: italic;
+}
+.service_full_wrapper .wordpress .line{
+    width: 9.8rem;
+    height: .2rem;
+    background-color: #0F2DD0;
+    margin: auto;
+}
+/* Wordpress */
+.service_full_wrapper{
+    padding:8% 0%;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+.service_full_wrapper .seo{
+    color: #fff !important;
+    padding:4.1rem 3.5rem;
+    background-color:#111827;
+    margin-left: 3.5rem;
+    border-radius:1.5rem;
+    cursor: pointer;
+    transition:0.2s ease;
+}
+.service_full_wrapper .seo:hover{
+    box-shadow:0px 0px 7.9rem #070f42
+}
+.service_full_wrapper .fa-magnifying-glass{
+    text-align: center;
+    font-size: 3.5rem;
+    color: #0F2DD0;
+    border: .1rem solid;
+    padding: 2rem;
+    border-radius: 4.5rem;
+}
+.service_full_wrapper .seo h2{
+    margin-top: 1.1rem;
+    font-size: 2.3rem;
+}
+.service_full_wrapper .seo p{
+    margin-top: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+    color: #a8a0a0;
+    font-style: italic;
+}
+.service_full_wrapper .seo .line{
+    width: 9.8rem;
+    height: .2rem;
+    background-color: #0F2DD0;
+    margin: auto;
+}
+/* SEO END*/
+.service_full_wrapper{
+    padding:8% 0%;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+.service_full_wrapper .graphics-design{
+    color: #fff !important;
+    padding:4.1rem 3.5rem;
+    background-color:#111827;
+    margin-left: 3.5rem;
+    border-radius:1.5rem;
+    cursor: pointer;
+    transition:0.2s ease;
+}
+.service_full_wrapper .graphics-design:hover{
+    box-shadow:0px 0px 7.9rem #070f42
+}
+.service_full_wrapper .fa-pen-nib{
+    text-align: center;
+    font-size: 3.5rem;
+    color: #0F2DD0;
+    border: .1rem solid;
+    padding: 2rem;
+    border-radius: 4.5rem;
+}
+.service_full_wrapper .graphics-design h2{
+    margin-top: 1.1rem;
+    font-size: 2.3rem;
+}
+.service_full_wrapper .graphics-design p{
+    margin-top: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+    color: #a8a0a0;
+    font-style: italic;
+}
+.service_full_wrapper .graphics-design .line{
+    width: 9.8rem;
+    height: .2rem;
+    background-color: #0F2DD0;
+    margin: auto;
+}
+/* Graphics Design END */
+.service_full_wrapper{
+    padding:8% 0%;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+.service_full_wrapper .video-editor{
+    color: #fff !important;
+    padding:4.1rem 3.5rem;
+    background-color:#111827;
+    margin-left: 3.5rem;
+    border-radius:1.5rem;
+    cursor: pointer;
+    transition:0.2s ease;
+}
+.service_full_wrapper .video-editor:hover{
+    box-shadow:0px 0px 7.9rem #070f42
+}
+.service_full_wrapper .fa-video{
+    text-align: center;
+    font-size: 3.5rem;
+    color: #0F2DD0;
+    border: .1rem solid;
+    padding: 2rem;
+    border-radius: 4.5rem;
+}
+.service_full_wrapper .video-editor h2{
+    margin-top: 1.1rem;
+    font-size: 2.3rem;
+}
+.service_full_wrapper .video-editor p{
+    margin-top: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+    color: #a8a0a0;
+    font-style: italic;
+}
+.service_full_wrapper .video-editor .line{
+    width: 9.8rem;
+    height: .2rem;
+    background-color: #0F2DD0;
+    margin: auto;
+}
+.col-md-3.seo {
+    margin-left: 5.8rem;
+}
+.row.aos-init.aos-animate{
+    margin-top:3rem;
+}
+/* Service Stop ======================================================== */
+
+/* Skils Start
+======================================================== */
+.row.skills_full_wrap{
+    margin-top: 5.5rem;
+}
+.skills_full_wrapper{
+    padding:8% 0%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    border-bottom:.2rem solid #1F2937;
+    background: #101113ad;
+}
+.skills_full_wrapper .skills h2 {
+    color: #fff;
+    letter-spacing: 1rem;
+    color: #0F2DB9;
+    font-size:5rem;
+}
+.grphicsAndvideo_wrapper {
+    margin-top: 5rem;
+}
+.skills_full_wrapper h2 {
+    font-size:2.3rem;
+}
+/* Skils Stop ======================================================== */
+
+/* Why Choose Me Start ======================================================== */
+
+.whychooseme_full_wrapper{
+    padding:8% 0%;
+    text-align: center;
+    border-bottom:.2rem solid #1F2937;
+    background: #030712a6;
+    color: #fff;
+    border-bottom:.2rem solid #1F2937;
+}
+.whychooseme_full_wrapper .row.whychooseme_wrap {
+    margin-top: 6rem;
+  }
+.whychooseme_full_wrapper .whychooseme h2 {
+    color: #fff;
+    letter-spacing: 1rem;
+    color: #0F2DB9;
+    font-size: 5rem;
+}
+.whychooseme_full_wrapper .whychooseme .line {
+    width: 9.8rem;
+    height: .2rem;
+    background-color: #0F2DD0;
+    margin: auto;
+    margin-top: 3.0rem;
+}
+.whychooseme_full_wrapper .left h2 {
+    font-size: 2.1rem;
+    text-align: end;
+    font-family: 'Oswald', sans-serif;
+  }
+.whychooseme_full_wrapper .left p {
+    font-size: 1.2rem;
+    text-align: end;
+    font-family: 'Arial', sans-serif;
+    color: #999;
+    font-style: italic;
+}
+.whychooseme_full_wrapper .fa-regular.fa-clock {
+    background: #1c2591;
+    padding: 1.9rem;
+    font-size: 4.5rem;
+    box-shadow: 0px 0px 5.5rem #0a1d95;
+}
+.whychooseme_full_wrapper .fa-solid.fa-check-to-slot {
+    background: #1c2591;
+    padding: 1.9rem;
+    font-size: 4.5rem;
+    box-shadow: 0px 0px 5.5rem #0a1d95;
+}
+.whychooseme_full_wrapper .fa-regular.fa-paper-plane{
+    background: #1c2591;
+    padding: 1.9rem;
+    font-size: 4.5rem;
+    box-shadow: 0px 0px 5.5rem #0a1d95;
+}
+.whychooseme_full_wrapper .fa-regular.fa-face-smile{
+    background: #1c2591;
+    padding: 1.9rem;
+    font-size: 4.5rem;
+    box-shadow: 0px 0px 5.5rem #0a1d95;
+}
+.whychooseme_full_wrapper .right h2 {
+    font-size: 2.1rem;
+    text-align: start !important;
+    font-family: 'Oswald', sans-serif;
+  }
+.whychooseme_full_wrapper .right p {
+    font-size: 1.2rem;
+    text-align: start;
+    font-family: 'Arial', sans-serif;
+    color: #999;
+    font-style: italic;
+}
+
+/* Why Choose Me Stop ======================================================== */
+
+/* Contact Me Start ======================================================== */
+.contact_full_wrapper {
+    padding: 8% 0%;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    background-color: #101113ad;
+    color: #fff;
+    box-shadow: 0px 0px 36px #000;
+    border-bottom: .2rem solid #1F2937A6;
+}
+.contact_full_wrapper .contact-wrap {
+    padding: 6rem;
+    margin-top: 6.5rem;
+    border: 1px solid #00136a;
+}
+.contact_full_wrapper .contact h2 {
+    color: white;
+    letter-spacing: 1rem;
+    color: #0F2DB9;
+    font-size:5rem;
+}
+label {
+    text-align: start;
+    display: block;
+}
+#fname{
+    width:100%;
+    background: #111827;
+    border: .1rem solid #4a4a4a;
+    padding: .7rem 0rem;
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+}
+#lname{
+    width:100%;
+    background: #111827;
+    border: .1rem solid #4a4a4a;
+    padding: .7rem 0rem;
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+}
+#subject{
+    width:100%;
+    background: #111827;
+    border: .1rem solid #4a4a4a;
+    padding: .7rem 0rem;
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+}
+#email{
+    width:100%;
+    background: #111827;
+    border: .1rem solid #4a4a4a;
+    padding: .7rem 0rem;
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+}
+#message{
+    width:100%;
+    background: #111827;
+    border: .1rem solid #4a4a4a;
+    padding: .7rem 0rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+}
+.contact_full_wrapper .content {
+    margin-top: 3.9rem;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+}
+.contact_full_wrapper .content::after{
+    right: -51%;
+}
+/* Contact Me Stop ======================================================== */
+
+/* Footer Contact Start ======================================================== */
+.footer_bg_wrapper{
+    background-image: url("../img/footer-map.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.footer_contact_full_wrapper{
+    padding:8% 0%;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    border-bottom:.2rem solid #1F2937;
+    color: #fff;
+}
+.footer_contact_full_wrapper h3{
+    font-size: 2.5rem;
+}
+.footer_contact_full_wrapper .fa-solid.fa-location-dot {
+    background: #1C2591;
+    font-size: 5.0rem;
+    padding: 2rem 2.7rem;
+    box-shadow: 0px 0px 5.5rem #0a1d95;
+    cursor: pointer;
+}
+.footer_contact_full_wrapper .fa-solid.fa-phone{
+    background: #1C2591;
+    font-size: 4.8rem;
+    padding:2.1rem 2.3rem;
+    box-shadow: 0px 0px 5.5rem #0a1d95;
+    cursor: pointer;
+}
+.footer_contact_full_wrapper .fa-solid.fa-envelope-open{
+    background: #1C2591;
+    font-size: 4.8rem;
+    padding: 2.1rem 2.5rem;
+    box-shadow: 0px 0px 5.5rem #0a1d95;
+    cursor: pointer;
+}
+.footer_contact_full_wrapper .fa-solid.fa-earth-americas{
+    background: #1C2591;
+    font-size: 4.8rem;
+    padding: 2.1rem 2.5rem;
+    box-shadow: 0px 0px 5.5rem #0a1d95;
+    cursor: pointer;
+}
+.footer_contact_full_wrapper h3 {
+  margin-top: 1.3rem;
+}
+.footer_contact_full_wrapper h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    font-style: italic;
+}
+.footer_contact_full_wrapper .row.second_footer_wrapper{
+    background-color:#111827;
+}
+/* Footer Contact Stop ======================================================== */
+
+/* Footer Start ======================================================== */
+.footer_full_wrapper{
+    padding: 1% 0%;
+    color: #fff;
+}
+.footer_full_wrapper .col-md-12.second_footer_wrap{
+    margin-top: 1.7rem;
+}
+.footer_full_wrapper .col-md-6.social_media {
+    text-align: end;
+    font-size: 3rem;
+    margin-top: .7rem;
+}
+.fa-brands.fa-facebook-f{
+    transition:0.3s ease;
+}
+.fa-brands.fa-facebook-f:hover{
+    box-shadow: 0px 0px 5.5rem #0a1d95;
+}
+.fa-brands.fa-behance {
+    margin: 0px 1.9rem;
+    transition:0.3s ease;
+}
+.fa-brands.fa-behance:hover{
+    box-shadow: 0px 0px 5.5rem #0a1d95;
+}
+.fa-brands.fa-linkedin-in{
+    transition:0.3s ease;
+}
+.fa-brands.fa-linkedin-in:hover{
+    box-shadow: 0px 0px 5.5rem #0a1d95;
+}
+/* Footer Stop ======================================================== */

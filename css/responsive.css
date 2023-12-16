@@ -1,0 +1,240 @@
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	html{
+		font-size:58%;
+		overflow-x: hidden;
+		width: 100%;
+	}
+	.bg-dark{
+		background-color: #1a1d20fa !important;
+		border-bottom: 1px solid #313131;
+	}
+	.about_full_wrapper {
+		border-bottom: 1px solid #313131;
+		border-top: 1px solid #313131;
+	}
+	.navbar-toggler {
+		font-size: 2.5rem;
+	}
+	.navbar-nav li a {
+		padding: 8px 0px 8px 18px !important;
+	}
+	.navbar-nav li a:hover{
+		box-shadow:none
+	}
+	.header_full_wrapper .header-content {
+		padding: 8% 0%;
+		text-align: center;
+	}
+	.header_full_wrapper .header_image img {
+		padding:0% 0% 5% 0%;
+		margin: auto;
+		display: block;
+	}
+	
+}
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	html{
+		font-size:58%;
+		overflow-x: hidden;
+		width: 100%;
+	}
+	.bg-dark{
+		background-color: #1a1d20fa !important;
+		border-bottom: 1px solid #313131;
+	}
+	.navbar-toggler {
+		font-size: 2.5rem;
+	}
+	.navbar-nav li a {
+		padding: 8px 0px 8px 18px !important;
+	}
+	.header_full_wrapper .header_image img{
+		width: 61rem;
+	}
+	.header_full_wrapper .header-content {
+		padding:8% 2% 8% 2%;
+		text-align: center;
+	}
+	.header_full_wrapper .header_image img {
+		padding:0% 0% 5% 0%;
+		margin: auto;
+		display: block;
+	}
+	/* About */
+	.about_full_wrapper .about-content h1 {
+		text-align: center;
+	}
+	.about_full_wrapper .about-content p {
+		text-align: justify;
+		padding:0rem 2rem;
+	}
+	.about_full_wrapper .about_image img {
+		width: 100%;
+	}
+	.about_full_wrapper {
+		border-bottom: 1px solid #313131;
+		border-top: 1px solid #313131;
+	}
+	/* Service */
+	.service_full_wrapper .web-design {
+		margin-left: 0px;
+	}
+	.service_full_wrapper .web-development{
+		margin:2rem 0rem 0rem 0rem;
+	}
+	.service_full_wrapper .wordpress{
+		margin:2rem 0rem 0rem 0rem;
+	}
+	.col-md-3.seo{
+		margin-left:0px;
+	}
+	.service_full_wrapper .graphics-design{
+		margin:2rem 0rem 0rem 0rem;
+	}
+	.service_full_wrapper .video-editor{
+		margin:2rem 0rem 0rem 0rem;
+	}
+	.row.aos-init.aos-animate{
+		margin-top:2rem;
+	}
+	/* Skills */
+	.grphicsAndvideo_wrapper {
+		margin-top:0rem;
+	}
+	.skills_full_wrapper h2 {
+		margin-top: 4rem;
+	}
+	.row.skills_full_wrap{
+		margin-top:1rem;
+	}
+	/* why choose me */
+	.whychooseme_full_wrapper .fa-regular.fa-clock{
+		padding:1.8rem;
+		font-size:3.5rem;
+	}
+	.whychooseme_full_wrapper .left p {
+  		font-size: .7rem;
+	}
+	.whychooseme_full_wrapper .fa-solid.fa-check-to-slot{
+		padding:1.8rem;
+		font-size:3.5rem;
+	}
+	.whychooseme_full_wrapper .right p{
+		font-size: .7rem;
+	}
+	.whychooseme_full_wrapper .fa-regular.fa-paper-plane{
+		padding:1.8rem;
+		font-size:3.5rem;
+	}
+	.whychooseme_full_wrapper .left p {
+		font-size: .7rem;
+  	}
+	.whychooseme_full_wrapper .fa-regular.fa-face-smile{
+		padding:1.8rem;
+		font-size:3.5rem;
+	}
+	.whychooseme_full_wrapper .right p{
+		font-size: .7rem;
+	}
+	
+	/* Footer Location */
+
+	.footer_contact_full_wrapper .fa-solid.fa-phone{
+		margin-top:2rem;
+	}
+	.footer_contact_full_wrapper .fa-solid.fa-envelope-open{
+		margin-top:2rem;
+	}
+	.footer_contact_full_wrapper .fa-solid.fa-earth-americas{
+		margin-top:2rem;
+	}
+	/* Footer */
+	.footer_full_wrapper .col-md-6.social_media{
+		margin-top: 0;
+		text-align:center;
+	}
+	.footer_full_wrapper .col-md-12.second_footer_wrap{
+		text-align:center;
+	}
+}
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media (max-width: 575.98px) {
+	html{
+		font-size:45%;
+	}
+	.navbar-toggler {
+		font-size:2.7rem;
+		margin-right: 1rem;
+	}
+	.navbar-brand img {
+		width: 95%;
+	  }
+	.whychooseme_full_wrapper{
+		display:none;
+	}
+	.contact_full_wrapper{
+		background-color: #030712;
+	}
+	.header_full_wrapper .header_image img {
+		width: 51rem;
+	}
+	.contact_full_wrapper .contact-wrap {
+		margin-top:0rem;
+		box-shadow:none;
+		padding: 2rem
+	}
+	.contact_full_wrapper label {
+		margin-top: 1.5rem;
+	}
+}
+
+@media (max-width:320px) {
+	html{
+		font-size:35%;
+	}
+	.navbar-toggler {
+		font-size:2rem;
+		margin-right: 1rem;
+	}
+	.navbar-brand img {
+		width:70%;
+	  }
+}
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+
+
+        
+}
